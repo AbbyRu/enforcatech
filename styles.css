@@ -1,4 +1,6 @@
-
+.container{
+  background-img: url(backgroundimg.jpeg); 
+}
   /* Header Links */
   .header-links {
     display: flex;
@@ -54,7 +56,10 @@
   max-width: 200px;
   margin-top: 30px;
 }
+.carousel-container{
+  display: flex;
 
+}
 /* Title styling */
 h1 {
   font-size: 3rem;
@@ -65,52 +70,7 @@ h1 span {
 }
 h2, h3{
     text-align: center;
-  }
-
-.carousel-container {
-    margin: 0 auto;
-    position: relative;
-    height: 150%;
-  }
-
-  /* Carousel track */
-  .carousel-track {
-    display: flex;
-    transition: transform 0.5s ease-in-out;
-  }
-
-  /* Individual carousel items */
-  .carousel-item {
-    min-width: 20%;
-    text-align: center;
-  }
-
-  .carousel-item img {
-    width: 50px;
-    height: 50px;
-    object-fit: contain;
-  }
-
-  /* Controls */
-  .carousel-btn {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background-color: #000;
-    color: #fff;
-    border: none;
-    padding: 10px;
-    cursor: pointer;
-    font-size: 18px;
-  }
-
-  .carousel-btn.left {
-    left: 0;
-  }
-
-  .carousel-btn.right {
-    right: 0;
-  }
+}
 
   .grid-container {
     display: flex;
@@ -132,20 +92,20 @@ h2, h3{
   color: #1d365d;
 }
 .container2 h6{
-  font-size: 2rem;
-  margin-top: 10px;
+  font-size: 2.5rem;
+  font-weight: bold;
+  
 }
 
 .container2 h6 span{
   font-size: 2.5rem;
   font-weight: bold;
   display: inline-block;
-  margin-top: 10px;
 
 }
 .container2 p{
   font-size: 1rem;
-  margin-top: 20px;
+  margin-top: 10px;
   line-height: 1.6;
   max-width: 700px;
   margin-left: auto;
@@ -187,9 +147,11 @@ h2, h3{
     line-height: 1.5;
   }
 .footer {
-  text-align: center;
+  display: flex;
   background: #333;
   color: #fff;
   padding: 10px 0;
-  display:;
+}
+.footer social-icons{
+  color: pink;
 }
