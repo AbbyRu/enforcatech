@@ -1,5 +1,5 @@
 .container{
-  background-img: url(/workspaces/enforcatech/backgroundimg.jpeg); 
+  background-image: url(./backgroundimg.jpeg);
 }
   /* Header Links */
   .header-links {
