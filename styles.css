@@ -1,5 +1,5 @@
 .container{
-  background-img: url(backgroundimg.jpeg); 
+  background-img: url(/workspaces/enforcatech/backgroundimg.jpeg); 
 }
   /* Header Links */
   .header-links {
@@ -147,10 +147,12 @@ h2, h3{
     line-height: 1.5;
   }
 .footer {
-  display: flex;
   background: #333;
   color: #fff;
   padding: 10px 0;
+}
+.footer-content{
+  display: flex;
 }
 .footer social-icons{
   color: pink;
