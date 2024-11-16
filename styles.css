@@ -55,9 +55,13 @@
 .robot-image {
   max-width: 200px;
   margin-top: 30px;
+  float: right;
 }
 .carousel-container img{
   display: flex;
+  flex-grow: 1;
+  padding: 2px;
+  margin: 2px;
 }
 
 /* Title styling */
@@ -157,6 +161,7 @@ h2, h3{
 }
 .footer-content{
   display: flex;
+  flex-grow: 1;
 }
 .footer social-icons{
   color: pink;
